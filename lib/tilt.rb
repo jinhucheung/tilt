@@ -198,6 +198,9 @@ module Tilt
 
   require 'tilt/asciidoc'
   register AsciidoctorTemplate, 'ad', 'adoc', 'asciidoc'
+  
+  require 'tilt/babel'
+  register BabelTemplate, 'es6', 'babel', 'jsx'
 
   require 'tilt/plain'
   register PlainTemplate, 'html'
